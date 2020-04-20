@@ -1,0 +1,7 @@
+name = input("Enter a String: ")
+name1 = name.lower()
+array2 = [i for i in range(0,int(len(name)/2)) if name1[i] == name1[-1-i]]
+if len(array2) == int(len(name)/2):
+	print("It's a palindrome")
+else:
+	print('Its not a plaindrome')
